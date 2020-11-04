@@ -42,13 +42,9 @@ h3{
     color:#0065fc;
     font-weight: bold;
 }
-
-
-
 nav ul a{
     font-weight: bold;
 }
-
 nav ul a:hover{
     color:#0065fc;
     font-weight: bolder;
@@ -76,14 +72,12 @@ nav ul a:hover{
     border:none;
     border-radius:0 10px 10px 0;
 }
-
 #iSearch{
     height:21px;
     background-color:#f2f2f2;
     border-radius:15px 0 0 15px;
     padding:5px;
 }
-
 
 /*filtres*/
 
@@ -251,7 +245,6 @@ nav ul a:hover{
     top:8px;
     right:43px;
 }
-
 #popularHebergements{
     width:34%;
     flex-direction: column;
@@ -449,9 +442,6 @@ footer{
 }
 
 
-
-
-
 /********     Responsive      *************/
 
 @media screen and (max-width:800px){
@@ -469,7 +459,6 @@ header{
     top:0;
     left:0;
 }
-
 #inscription{
     position:absolute;
     top:0;
@@ -527,8 +516,8 @@ header{
     background:#fff;
 }
 .carteHebergement{
-    min-width:405px;
-    min-height:300px;
+    min-width:375px;
+    min-height:275px;
     box-shadow:0 5px 5px #f2f2f2;
     padding-bottom:0;
 }
