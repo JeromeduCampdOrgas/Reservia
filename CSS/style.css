@@ -254,7 +254,7 @@ nav ul a:hover{
     background-color:#f2f2f2;
     border-radius:15px;
 }
-#popularHebergementTest{
+#popularHebergementListe{
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
@@ -265,7 +265,7 @@ nav ul a:hover{
     width:80%;
     margin:auto;
 }
-#popularHebergementTest a{
+#popularHebergementListe a{
     text-decoration:none;
     color: black;
 }
