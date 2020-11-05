@@ -112,6 +112,9 @@ nav ul a:hover{
     background:#deebff;
     padding:5px;
   }
+  #filterZone :hover{
+      background-color:#deebff;
+  }
 /*Informations*/
 #informations{
     display:flex;
