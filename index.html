@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway:wght@100&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <title>Reservia</title>
 </head>
@@ -33,10 +34,16 @@
 		</div>
 		
         <!--zone de recherche-->
-            <form method = "POST" action="#" id="formulaire">
+            <form method = "POST" action="#" id="formulaireDesktop">
                 <i class="fas fa-map-marker-alt" id="iSearch"></i>
-                <input type="text" name="search" id="search">
-                <input type="submit" id ="searchButton" value="Rechercher">
+                <input type="text" name="search" id="search" value ="Marseille, France">
+				<input type="submit" id ="searchButtonDesktop" value="Rechercher">
+
+			</form>
+			<form method = "POST" action="#" id="formulaireMobile">
+                <i class="fas fa-map-marker-alt" id="iSearch"></i>
+                <input type="text" name="search" id="search" value ="Marseille, France">
+				<i class="fa fa-search" aria-hidden="true" id = "loupe"></i> <!--<i class="fa fa-search" aria-hidden="true"></i>-->
             </form>
 
         <!--zone de filtres-->
