@@ -454,7 +454,9 @@ footer{
     margin-left:0;
     padding:0;
 }
-
+#footer ul li{
+    padding:0 0 10px 0;
+}
 
 /********     Responsive      *************/
 
