@@ -603,6 +603,7 @@ header{
 
 /*les populaires*/
 #popularHebergements{
+    width:100%;
     height:610px;
 }
 #popularHebergementListe{
@@ -645,7 +646,7 @@ header{
   flex-direction:column;
   align-items:center;
   justify-content:space-between;
-  width:90%;
+  width:95%;
   height:auto;
 }
 .carteVerticale{
