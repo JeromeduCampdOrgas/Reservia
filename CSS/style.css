@@ -74,6 +74,9 @@ nav ul a:hover{
     border:none;
     border-radius:0 15px 15px 0;
 }
+#loupe{
+    visibility:hidden;
+}
 
 #iSearch{
     height:21px;
@@ -500,15 +503,18 @@ header{
 } 
 /*formulaire*/
 #formulaireDesktop{
-    display:none;
-}
-#formulaireMobile{
     display:inline;
     width:252px;
     height:34px; 
     padding:7px 0px 7px 0px;
     border:2px #f2f2f2 solid;
     border-radius:10px;
+}
+#searchButtonDesktop{
+    display:none;
+}
+#loupe{
+    visibility:visible;
 }
 #search{
     height:33px;
