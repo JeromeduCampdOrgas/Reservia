@@ -55,30 +55,35 @@ nav ul a:hover{
     width:98%;
     margin:auto auto 25px auto;
 }
-#formulaire{
-    width:275px;
+#formulaireDesktop{
+    width:288px;
     height:30px; 
     border:1px #f2f2f2 solid;
     border-radius:15px;
+    margin:15px 0 15px 0;
 }
 #search{
     border:none;
+    font-weight:bold;
   }
-#searchButton{
+#searchButtonDesktop{
     background-color:#0065fc;;
     color:white;
     padding:5px;
     height:30px;
     border:none;
-    border-radius:0 10px 10px 0;
+    border-radius:0 15px 15px 0;
 }
+
 #iSearch{
     height:21px;
     background-color:#f2f2f2;
     border-radius:15px 0 0 15px;
     padding:5px;
 }
-
+#formulaireMobile{
+    display:none;
+}
 /*filtres*/
 
 #filtres{
@@ -86,31 +91,38 @@ nav ul a:hover{
     justify-content:flex-start;
     width:50%;
     align-items:center;
+    font-weight:bold;
   }
   #filterZone{
     display:flex;
+    height:15px;
+    align-items:center;
+    margin:20px 20px 20px 0;
   }
   
   .filtersSelect{
-    height:25px;
+    height:35px;
     min-width:80px;
     margin:5px;
     padding:0;
     border:1px #efefef solid;
-    border-radius:15px;
+    border-radius:20px;
   }
   .filtersSelect a{
     font-weight:bold;
+    color:#000;
     margin:5px;
     text-decoration:none;
   }
   .filtersSelect i{
-    height:15px;
-    width:15px;
+    height:26px;
+    width:35px;
     color:#0065fc;
     border-radius:100%;
     background:#deebff;
-    padding:5px;
+    vertical-align:middle;
+    text-align:center;
+    padding-top:10px;
   }
   #filterZone :hover{
       background-color:#deebff;
@@ -151,8 +163,7 @@ nav ul a:hover{
     width:100%;
 }
 #detailHebergements{
-    width:80%;
-    margin-right:50px;
+    width:71%;
 }
 #listHebergements{
     display:flex;
@@ -248,7 +259,7 @@ nav ul a:hover{
     right:43px;
 }
 #popularHebergements{
-    width:34%;
+
     flex-direction: column;
     background-color:#f2f2f2;
     border-radius:15px;
@@ -449,7 +460,9 @@ footer{
 
 @media screen and (max-width:800px){
 /*en-tete*/
-
+body{
+    width:91%;
+}
 header{
     height:80px;
 }
@@ -483,7 +496,52 @@ header{
 #menu li:hover{
     border-bottom:2px solid blue;
 } 
+/*formulaire*/
+#formulaireDesktop{
+    display:none;
+}
+#formulaireMobile{
+    display:inline;
+    width:252px;
+    height:34px; 
+    padding:7px 0px 7px 0px;
+    border:2px #f2f2f2 solid;
+    border-radius:10px;
+}
+#search{
+    height:33px;
+    margin:0;
+    padding:2px 0 0 0;
+  }
 
+  #iSearch{
+    height:21px;
+    background-color:#f2f2f2;
+    border-radius:10px 0 0 10px;
+    padding:10px 10px 5px 10px;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:10px;
+  }
+#loupe{
+      background:#0065FC;
+      padding:9px;
+      border-radius:10px;
+  }
+
+#searchButtonMobile{
+    background-color:#0065fc;;
+    color:white;
+    padding:5px;
+    height:30px;
+    border:none;
+    border-radius:0 10px 10px 0;
+}
 /*Recherche et filtres*/
         /*filtres*/
 #filtres{
@@ -491,13 +549,21 @@ header{
     flex-direction:column;
     align-items: flex-start;
     width:100%;
+    height:200px;
     }
 #filterZone{
     display:flex;
     align-content: flex-start;
+    justify-content:space-between;
     flex-wrap:wrap;
-    width:60%;
+    margin-top:0;
+    height:183px;
+    width:75%;
 }
+#informations{
+    margin-top:25px;
+}
+
 
 /*Section Hébergements*/
 
@@ -540,13 +606,20 @@ header{
     display:flex;
     flex-direction:column;
     align-items:center;
+    align-content:space-between;
     border-radius:0;
+    margin:auto;
     width:100%;
 }
-.popularHebergement{
-  width:80%;
-  min-height:200px;
-}
+/*#popularHebergementListe{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:auto;
+    width:80%;
+ 
+}*/
 #titlePopular{
     display:inline-flex;
     flex-direction:column;
