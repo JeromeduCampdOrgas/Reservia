@@ -469,7 +469,8 @@ body{
     width:91%;
 }
 header{
-    height:80px;
+    height:100px;
+    margin-bottom:45px;
 }
 #entete{
     position:relative;
@@ -491,9 +492,7 @@ header{
     position:absolute;
     left:0;
     top:50px;
-    text-align:center;
-    margin:auto;
-    width:100%;
+    width:72%;
 }
 #menu li{
     margin:auto;
@@ -569,7 +568,7 @@ header{
     width:75%;
 }
 #informations{
-    margin-top:25px;
+    margin-top:65px;
 }
 
 
