@@ -592,7 +592,7 @@ header{
     background:#fff;
 }
 .carteHebergement{
-    min-width:375px;
+    min-width:327;
     min-height:275px;
     box-shadow:0 5px 5px #f2f2f2;
     padding-bottom:0;
@@ -619,7 +619,7 @@ header{
     flex-wrap:wrap;
     justify-content:space-between;
     margin:auto;
-    width:80%;
+    width:93%;
     height:80%;
 
 }
